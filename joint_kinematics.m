@@ -5,6 +5,9 @@ function [hip_ROM, hip_avg_pos , knee_ROM, knee_avg_pos , ankle_ROM, ankle_avg_p
 %Inputs:support phase hip, knee, ankle joint angle curves
 %Exports: peak hip extension and flexion, peak knee flexion, peak ankle
 %dorsiflexion and plantarflexion
+%Author: Daniel Kuhman
+%Github: https://github.com/dkuhman
+%Updated: 2020-05-15
 
 %-------------------------------STATIC ANGLES------------------------------
 hip_staticPos = mean(static_hip);

@@ -2,17 +2,16 @@ function [peak_ext_pos_pwr, ext_pos_work, peak_flx_neg_pwr,...
     flx_neg_work, peak_flx_pos_pwr, flx_pos_work] = ...
     hip_power_vars(hip_moment,hip_power,frame_rate)
 %This function finds hip joint power and mechanical work variables. 
-%Work is found by integrating the moment curve with respect to time. The
-%hip moment is used to identify periods of extensor and flexor activity.
+%The hip moment is used to identify periods of extensor and flexor activity.
 %This script ASSUMES THAT EXTENSOR MOMENTS ARE POSITIVE AND FLEXOR MOMENTS
 %ARE NEGATIVE.
-%Inputs: support phase ankle moment and power curves, kinematic frame rate
+%Inputs: support phase hip moment and power curves, kinematic frame rate
 %Outputs: hip extensor peak positive power and positive work, hip flexor
 %peak negative power and negative work, hip flexor peak positive power and
 %positive work
 %Author: Daniel Kuhman
-%Contact: danielkuhman@gmail.com
-%Date created: 1/24/2020
+%Github: https://github.com/dkuhman
+%Date created: 2020-01-24
 
 %Isolate periods of extensor and flexor activity
 hip_ext_frames = find(hip_moment > 0);

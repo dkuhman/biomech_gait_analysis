@@ -1,12 +1,11 @@
 function [peak_positive_power, positive_work, negative_work]...
     = ankle_power_vars(ankle_power,frame_rate)
-%This function finds ankle joint peak power and mechanical work. 
-%Work is found by integrating the moment curve with respect to time. 
+%This function finds ankle joint peak power and mechanical work.  
 %Inputs: support phase ankle power curve, kinematic frame rate
 %Outputs: peak positive power, positive work, negative work
 %Author: Daniel Kuhman
-%Contact: danielkuhman@gmail.com
-%Date created: 1/22/2020
+%Github: https://github.com/dkuhman
+%Date created: 2020-01-22
 
 %Peak ankle power
 peak_positive_power = max(ankle_power);

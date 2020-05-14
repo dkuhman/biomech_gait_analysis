@@ -8,8 +8,8 @@ function [peak_ext_moment, peak_flx_moment, ext_angular_impulse,...
 %Outputs: peak ankle plantarflexor moment, peak ankle dorsiflexor moment,
     %ankle plantarflexor angular impulse, ankle dorsiflexor angular impulse
 %Author: Daniel Kuhman
-%Contact: danielkuhman@gmail.com
-%Date created: 1/22/2020
+%Github: https://github.com/dkuhman
+%Date created: 2020-01-22
 
 %Peak extensor (positive) moment
 peak_ext_moment = max(ankle_moment);

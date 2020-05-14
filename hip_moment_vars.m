@@ -8,8 +8,8 @@ function [peak_ext_moment, peak_flx_moment, ext_angular_impulse,...
 %Outputs: peak hip extensor moment, peak hip flexor moment,
     %hip extensor angular impulse, hip flexor angular impulse
 %Author: Daniel Kuhman
-%Contact: danielkuhman@gmail.com
-%Date created: 1/22/2020
+%Github: https://github.com/dkuhman
+%Updated: 2020-01-22
 
 %Peak hip extensor (positive) moment
 peak_ext_moment = max(hip_moment);

@@ -2,7 +2,7 @@ function [vertical_peak1,vertical_peak2,vertical_impulse,...
     ap_peak_brake, ap_brake_impulse, ap_peak_propulsion, ap_propulsion_impulse]...
     = grf_vars(vertical_grf,ap_grf,frame_rate)
 %This function quantifies variables related to vertical and anteroposterior
-%ground reaction forces during level-ground walking. Impulses are found by 
+%ground reaction forces during walking. Impulses are found by 
 %integrating the force curve with respect to time. This script assumes that
 %the vertical force is positive, the anteroposterior braking force
 %is negative, the anteroposterior propulsive force is positive.
@@ -12,8 +12,8 @@ function [vertical_peak1,vertical_peak2,vertical_impulse,...
     %the impulse of the entire support phase, peak braking and propulsive
     %anteroposterior ground reaction forces and their impulses.
 %Author: Daniel Kuhman
-%Contact: danielkuhman@gmail.com
-%Date created: 1/24/2020
+%Github: https://github.com/dkuhman
+%Updated: 2020-01-24
 
 %Cut the vertical GRF into 1st and 2nd halves. This will allow us to get a
 %first half max (firstPeakVertGRF) and a secund half max (secondPeakVertGRF).
