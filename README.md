@@ -1,6 +1,19 @@
 # Biomechanical Gait Analysis in MATLAB
 
-This repository hosts scripts related to human biomechanical gait analysis during level walking (treadmill or overground).
+This repository hosts scripts related to human biomechanical gait analysis.
+
+---
+
+## Signal Processing
+
+---
+
+## Gait Event Detection
+
+### Identifying Heel Strikes and Toe Offs
+`gait_events_grf.m`: This function uses a 10N threshold on the vertical GRF to identify heel strikes and toe offs.  
+
+`impliment_example.m`: This script provides an example template for implimenting `gait_events_grf.m`. The script loads the example data file grf_gait_events_data.mat, uses the function to identify heel strikes and toe offs, and plots the GRF signal with event frames highlighted.
 
 ---
 
