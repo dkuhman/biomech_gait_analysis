@@ -6,6 +6,13 @@ This repository hosts scripts related to human biomechanical gait analysis.
 
 ## Signal Processing
 
+### Applying Butterworth Filters
+`butterworth_filter.m`: This script provides a template for applying a 4th-order lowpass Butterworth filter with a cutoff frequency of 6 Hz. The script includes calls to `butter()` and `filtfilt()` to filter a vertical ground reaction force signal. The script also plots the original and filtered signals.  
+
+<img src="media/grf_butter_filter.jpg" width="60%">
+
+### Normalizing a time-series signal from 0-100%
+
 ---
 
 ## Gait Event Detection
