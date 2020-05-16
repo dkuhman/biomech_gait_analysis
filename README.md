@@ -15,6 +15,8 @@ This repository hosts scripts related to human biomechanical gait analysis.
 
 `impliment_example.m`: This script provides an example template for implimenting `gait_events_grf.m`. The script loads the example data file grf_gait_events_data.mat, uses the function to identify heel strikes and toe offs, and plots the GRF signal with event frames highlighted.
 
+<img src="media/grf_gait_events.jpg" width="60%">
+
 ---
 
 ## Joint-level Kinetics
